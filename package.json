@@ -1,0 +1,21 @@
+{
+  "name": "trivia-matchmaking",
+  "version": "1.0.0",
+  "description": "Real-time 1v1 trivia matchmaking system",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "redis": "^4.6.10",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+} 
